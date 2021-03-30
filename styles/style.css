@@ -111,3 +111,29 @@ footer {
     }
 
   }
+
+  p {
+      margin: 0;
+  }
+
+  ul {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .veggie {
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 15px;
+  }
+
+  .name {
+      font-size: 1.5rem;
+  }
+  .veggie-image {
+      width: 100px;
+      height: 100px;
+  }

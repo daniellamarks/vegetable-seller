@@ -1,5 +1,11 @@
-// import functions and grab DOM elements
+import { vegetables } from './data.js';
+import { createVeggie } from './utils.js';
 
-// initialize state
+const ul = document.getElementById('list');
 
-// set event listeners to update state and DOM
+for (let myVeggie of vegetables) {
+    const li = createVeggie(myVeggie);
+
+    // Side effect happens here!
+    ul.append(li);
+}
